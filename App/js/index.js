@@ -19,7 +19,15 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button4")
+                .setLeft("29.714285714285715em")
+                .setTop("13.714285714285714em")
+                .setCaption("Ram")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
