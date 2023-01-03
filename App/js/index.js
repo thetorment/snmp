@@ -21,11 +21,11 @@ xui.Class('App', 'xui.Module',{
             var host=this, children=[], append=function(child){children.push(child.get(0));};
             
             append(
-                xui.create("xui.UI.Button")
-                .setHost(host,"xui_ui_button4")
-                .setLeft("29.714285714285715em")
-                .setTop("13.714285714285714em")
-                .setCaption("Ram")
+                xui.create("xui.UI.HTMLButton")
+                .setHost(host,"xui_ui_htmlbutton3")
+                .setLeft("3.8095238095238093em")
+                .setTop("2.2857142857142856em")
+                .setCaption("Native Button")
             );
             
             return children;
